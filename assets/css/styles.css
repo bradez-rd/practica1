@@ -1,0 +1,9 @@
+
+:root { --primary: #0d6efd; --secondary: #6c757d; --dark: #212529; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+.hero-section { background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%); color: white; padding: 90px 0; }
+.feature-icon { font-size: 2.2rem; color: #0d6efd; margin-bottom: 1rem; }
+.card { border-radius: 12px; transition: transform .2s ease, box-shadow .2s ease; border: 1px solid #e9ecef; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+.nav-link.active { font-weight: 700; color: #0d6efd !important; }
+footer { background: #111827; color: #9ca3af; }
